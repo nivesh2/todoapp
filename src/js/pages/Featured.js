@@ -32,8 +32,13 @@ export default class Featured extends React.Component {
     return (
       <div>
         <div class="row">
+          <div class="col-lg-12">
+            <div class="well text-center">
               {randomAd}
+            </div>
+          </div>
         </div>
+
         <div class="row">{Articles}</div>
       </div>
     );

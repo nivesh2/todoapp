@@ -15,8 +15,12 @@ export default class layout extends React.Component {
         <Nav location={location} />
         <div class="container" style={containerStyle}>
           <div class="row">
+            <div class="col-lg-12">
               <h1>KillerNews.net</h1>
+
               {this.props.children}
+
+            </div>
           </div>
         <Footer/>
        </div>

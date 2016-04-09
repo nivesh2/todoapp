@@ -6,7 +6,9 @@ export default class Footer extends React.Component {
     return (
       <footer>
         <div class="row">
-          <p>Copyright &copy; KillerNews.net</p>
+          <div class="col-lg-12">
+            <p>Copyright &copy; KillerNews.net</p>
+          </div>
         </div>
       </footer>
     );
