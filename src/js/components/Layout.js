@@ -1,12 +1,14 @@
 import React from "react";
 
+import Header from "./Header";
+import Footer from "./Footer";
+
 export default class Layout extends React.Component {
   render(){
     return (
       <div>
-
-        <h1>This is from React</h1>
-        <p>Hi, there!</p>
+          <Header title="TodoApp - react"/>
+          <Footer/>
       </div>
     );
   }
