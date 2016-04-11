@@ -14,16 +14,11 @@ export default class Archives extends React.Component {
       "Some Other Article",
       "Yet Another Article",
       "Still More",
-      "Fake Article",
-      "Partial Article",
-      "American Article",
-      "Mexican Article",
     ].map((title, i) => <Article key={i} title={title}/> );
     console.log("archives");
     return (
       <div class="row">
       <div class="col-lg-12">
-        <h1>Archives</h1>
         article: {article}, date: {date}, filter: {filter}
         <div class="row">{Articles}</div>
       </div>
