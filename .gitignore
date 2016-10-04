@@ -1,0 +1,4 @@
+
+//visual studio code setting files excluded
+.vscode
+jsconfig.json
